@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>abirami</title>
+  <link rel="stylesheet" href="pro.css">
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+
+  
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-light bg-white fixed-top shadow-sm">
+    <div class="container-fluid justify-content-between">
+      <div class="d-flex align-items-center">
+        <button class="btn btn-light me-2" id="toggle-btn"><i class="bi bi-list fs-4"></i></button>
+        <a class="navbar-brand fw-bold" href="#"><i class="bi bi-youtube fs-3"></i><span>YouTube</span></a>
+      </div>
+
+      <div class="d-flex align-items-center">
+        <form class="d-flex">
+          <input class="form-control rounded-start-pill" type="search" placeholder="Search" />
+          <button class="btn btn-outline-secondary rounded-end-pill" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+        <button class="btn btn-light ms-2 rounded-circle"><i class="bi bi-mic-fill fs-5"></i></button>
+      </div>
+
+      <div class="d-flex align-items-center gap-3">
+        <i class="bi bi-bell fs-5"></i>
+        <i class="bi bi-person-circle fs-4"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sidebar -->
+  <div id="sidebar">
+    <ul class="nav flex-column pt-2">
+      <li><a class="nav-link" href="#"><i class="bi bi-house-door"></i><span>Home</span></a></li>
+      <li><a class="nav-link" href="#"><i class="bi bi-camera-reels"></i><span>Shorts</span></a></li>
+      <li><a class="nav-link" href="#"><i class="bi bi-collection-play"></i><span>Subscriptions</span></a></li>
+      <li><a class="nav-link" href="#"><i class="bi bi-person"></i><span>You</span></a></li>
+      <li><hr></li>
+      
+    </ul>
+  </div>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <button class="category-btn active">All</button>
+    <button class="category-btn">Music</button>
+    <button class="category-btn">Gaming</button>
+    <button class="category-btn">News</button>
+    <button class="category-btn">Sports</button>
+    <button class="category-btn">Education</button>
+    <button class="category-btn">Politics</button>
+    <button class="category-btn">NEET</button>
+    <button class="category-btn">Cooking</button>
+    <button class="category-btn">Mixes</button>
+    <button class="category-btn">Live</button>
+    <button class="category-btn">Javascript</button>
+    <button class="category-btn">C++</button>
+    <button class="category-btn">Shopping</button>
+    <button class="category-btn">Recently Uploaded</button>
+  </div>
+
+  <!-- Main -->
+  <main>
+    <div class="video-grid">
+
+      <!-- VIDEO 1 -->
+      <div class="video-item">
+        <div class="video-thumb">
+          <iframe src="https://www.youtube.com/embed/0Q8eftj5OA0" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-details">
+          <div class="channel-logo" style="background-image:url('cyber.jpg');"></div>
+
+          <div class="info-column">
+            <div class="video-title"><a href="#">Introduction to Javascript DOM Course</a></div>
+            <div class="video-channel"><a href="#">CyberDude Networks Pvt. Ltd.</a></div>
+            <div class="video-stats">1.4B views • 4 years ago</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIDEO 2 -->
+      <div class="video-item">
+        <div class="video-thumb">
+          <iframe src="https://www.youtube.com/embed/RNQuRlUD63M?si=y2ir6x0QK1M6JgfK" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-details">
+          <div class="channel-logo" style="background-image:url('hr.jpg');"></div>
+        
+          <div class="info-column">
+            <div class="video-title"><a href="#">Learn Full stack+AI in just 4 months in Tamil</a></div>
+            <div class="video-channel"><a href="#">HR_Navin</a></div>
+            <div class="video-stats">8.3K views • 2 years ago</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIDEO 3 -->
+      <div class="video-item">
+        <div class="video-thumb">
+          <iframe src="https://www.youtube.com/embed/EILNu_L4UVE?si=ZkR1yPYjTgeBBrIF" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-details">
+          <div class="channel-logo" style="background-image:url('nrfm.jpg');"></div>
+
+          <div class="info-column">
+            <div class="video-title"><a href="#">24 Hours Tent Challenge ⚔️ One Player Eliminated Each Round</a></div>
+            <div class="video-channel"><a href="#">NRFM VLOGS</a></div>
+            <div class="video-stats">3.2M views • 2 weeks ago</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIDEO 4 -->
+      <div class="video-item">
+        <div class="video-thumb">
+          <iframe src="https://www.youtube.com/embed/g3zpDW7Rato?si=ZkeTXNCfScQxUhvJ" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-details">
+          <div class="channel-logo" style="background-image:url('magic.jpg');"></div>
+
+          <div class="info-column">
+            <div class="video-title"><a href="#">The Original Snow White & 7 Dwarfs Story</a></div>
+            <div class="video-channel"><a href="#">Magical Fairy Tales</a></div>
+            <div class="video-stats">6.2K views • 7 years ago</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIDEO 5 -->
+      <div class="video-item">
+        <div class="video-thumb">
+          <iframe src="https://www.youtube.com/embed/qV8Ak5Rapaw?si=0o-njLR7sqdElXac" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-details">
+          <div class="channel-logo" style="background-image:url('movie.jpg');"></div>
+
+          <div class="info-column">
+            <div class="video-title"><a href="#">Venomous (Full Movie) | Tamil Dubbed | Korean Monster Film</a></div>
+            <div class="video-channel"><a href="#">IOF - Tamil</a></div>
+            <div class="video-stats">3.5K views • 6 years ago</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIDEO 6 -->
+      <div class="video-item">
+        <div class="video-thumb">
+          <iframe src="https://www.youtube.com/embed/tTuu3fmBADU?si=a5Rj5jp7kQuAuUT0" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-details">
+          <div class="channel-logo" style="background-image:url('thrashi.jpg');"></div>
+
+          <div class="info-column">
+            <div class="video-title"><a href="#">How I Stay in Shape! 💪 | My Workout Routine</a></div>
+            <div class="video-channel"><a href="#">Vibe With Tharshi</a></div>
+            <div class="video-stats">1.1M views • 1 year ago</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const toggleBtn = document.getElementById('toggle-btn');
+    const sidebar = document.getElementById('sidebar');
+    toggleBtn.addEventListener('click', () => sidebar.classList.toggle('collapsed'));
+  </script>
+
+</body>
+</html>
+
+
+
+
